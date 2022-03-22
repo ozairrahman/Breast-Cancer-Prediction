@@ -19,9 +19,9 @@ Import Dependencies that are necessary such as:
 Normalize the data by getting rid of unecessary values & any non values & converting values that we need for our model to understand
 ## Model
 Create a regression model by using 2 dense layers with 2 relu activation functions & 1 ourput layer. We then use the 'Adam' optimizer to compile our model & use mean absolute error as our accuracy & loss function. After, we fit the model with our training & testing data & declare 20 epochs to run so we can train our model over 20 cycles. We also shuffle the model's data so our accuracies can be more robust. 
+## Data Visualization
+Create graphs & graph accuracy on the training data vs the testing data & the same for loss as well. 
 ## Evaluation 
 After training the model, we will run an evaluation function to verify the average loss & accuracy of the model. 
 ## Prediction
-In thi step, we will print the first 5 predictions of our model & see if the model's predictions were right, afterwards, we'll print all of our model's predictions & see what the model got right & wrong.
-## Data Visualization
-Laslt, we will create graphs & graph accuracy on the training data vs the testing data & the same for loss as well. 
+Lastly, we will print the first 5 predictions of our model & see if the model's predictions were right, afterwards, we'll print all of our model's predictions & see what the model got right & wrong.
